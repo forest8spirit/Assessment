@@ -5,10 +5,36 @@ CIB DIGITAL TECH – QA AUTOMATION ASSESSMENT
 Download Assessment.zip from https://github.com/forest8spirit/Assessment/blob/master/QA%20Automation%20Assessment.zip
 Extract Assessment.zip to C:\
 
-------------------------------------------------------------------------------------
+Task 2 - WEB:
+---
+
+Open latest version of Google Chrome browser
+browes to https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid
+Click 'Add to Chrome' > 'Add extension'
+Click the Katalon Recorder extension icon in toolbar to open
+
+Click  Open Test Suite > C:\QA Automation Assessment\Web test - Katalon Recorder
+       Select Task 2 -Web.html
+       Click Open
+       
+Task 2 -WEB (Test Suite)       
+- WebTest_Open_WebTables
+- WebTest_Populate_Data
+- WebTest_Verify_Data
+
+Click on the 'Data Driven' tab 
+        Click Add CSV File > C:\QA Automation Assessment\Web test - Katalon Recorder
+        Select data.csv
+        Click Open
+
+Click 'Play Suite' to execute test
+
+Click Log tab to view log
+Click Screenshots to view screenshots
+Click 'Save log as...' to save log vile in HTML format
 
 Task 1 - API:
-
+---
 Install Katalon Studio from https://www.katalon.com/download/ (301MB). No need to register.
 Extract the Katalon_Studio_Windows_64-5.7.0.zip archive and run the katalon.exe
 
@@ -45,34 +71,6 @@ Results available in Log Viewer and Console view.
 Reports folder contains reports generated through test suite execution
 Open Reports > Assessment > double click latest report to view results
 Right click on report > Export as > <select option> to view report
-  
-------------------------------------------------------------------------------------
 
-Taks 2 - WEB:
 
-Open latest version of Google Chrome browser
-browes to https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid
-Click 'Add to Chrome' > 'Add extension'
-Click the Katalon Recorder extension icon in toolbar to open
 
-Click  Open Test Suite > C:\QA Automation Assessment\Web test - Katalon Recorder
-       Select Task 2 -Web.html
-       Click Open
-       
-Task 2 -WEB (Test Suite)       
-- WebTest_Open_WebTables
-- WebTest_Populate_Data
-- WebTest_Verify_Data
-
-Click on the 'Data Driven' tab 
-        Click Add CSV File > C:\QA Automation Assessment\Web test - Katalon Recorder
-        Select data.csv
-        Click Open
-
-Click 'Play Suite' to execute test
-
-Click Log tab to view log
-Click Screenshots to view screenshots
-Click 'Save log as...' to save log vile in HTML format
-
-------------------------------------------------------------------------------------
